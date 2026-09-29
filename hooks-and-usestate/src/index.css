@@ -1,0 +1,27 @@
+.counter-container {
+  text-align: center;
+  font-family: "jost", sans-serif;
+}
+.count-display {
+  font-size: 3em;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.counter-button {
+  min-width: 125px;
+  padding: 20px;
+  font-weight: 500;
+  font-family: "Jost", sans-serif;
+  text-transform: uppercase;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  background-color: aliceblue;
+  border: solid 1px rgb(230, 230, 230);
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.08);
+  transition: all 250ms ease;
+
+  &:hover {
+    background-color: rgb(211, 233, 226);
+  }
+}

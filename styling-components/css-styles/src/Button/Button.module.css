@@ -1,0 +1,23 @@
+/* Module example, this creates a unique hash so classes don't overlap */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.button {
+  padding: 20px;
+  background: #f0f3f3;
+  border: 1px solid rgb(222, 221, 221);
+  border-radius: 0.5rem;
+  color: #333;
+  font-family: "jost", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  box-shadow: 3px 3px 5px hsla(0, 0%, 0%, 0.1);
+  transition: background 150ms ease;
+
+  &:hover {
+    background: hsla(0, 0%, 0%, 0.1);
+  }
+}
