@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #4a443f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+label {
+  padding-bottom: 10px;
+  font-family: "Jost", sans-serif;
+  font-weight: 600;
+  color: rgb(255, 220, 164);
+}
+.clock-container {
+  background-color: rgba(255, 255, 255, 0.25);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 5px;
+  width: 150px;
+}
+.clock {
+  font-family: "Jost", sans-serif;
+  color: white;
+}
